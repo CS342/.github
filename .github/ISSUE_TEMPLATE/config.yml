@@ -1,0 +1,13 @@
+#
+# This source file is part of the Stanford CS342 - Building for Digital Health class
+#
+# SPDX-FileCopyrightText: 2022 Stanford University
+#
+# SPDX-License-Identifier: MIT
+#
+
+blank_issues_enabled: false
+contact_links:
+  - name: Discussions & Support
+    url: https://github.com/orgs/CS342/discussions
+    about: We use GitHub Discussions for any discussions and support
