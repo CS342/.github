@@ -1,0 +1,53 @@
+#
+# This source file is part of the Stanford CS342 - Building for Digital Health class
+#
+# SPDX-FileCopyrightText: 2022 Stanford University
+#
+# SPDX-License-Identifier: MIT
+#
+
+title: "[Office Hours] "
+labels: ["Office Hours"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use this form to describe your challenge to prepare for an office hour appointment.
+  - type: textarea
+    id: description
+    attributes:
+      label: Related Discussion
+      description: If you have a technical challenge, please provide a link to a GitHub Discussion that describes your challenge and what you have tried so far.
+      placeholder: | 
+        Please provide a link to a GitHub Discussion that describes your challenge and what you have tried so far.
+
+        The GitHub discussion should include a clear and concise description of the problem you are having.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction
+      description: Please provide additional context on how to reproduce the problem you are facing.
+      placeholder: | 
+        What steps did you follow to get the problem? 
+        
+        If you are facing a problem in your application, please provide a link to a failing UI test or unit test to reproduce the issue.
+        If you face a build error or a problem with releasing your application, please link a GitHub Action run reproducing the error outside of your development.
+    validations:
+      required: true
+  - type: textarea
+    id: additionalcontext
+    attributes:
+      label: Additional context
+      description:  |
+        Please provide any additional context that might be relevant to your setup problem.
+      placeholder: Any additional context that might be relevant to your problem.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/CS342/.github/blob/main/CODE_OF_CONDUCT.md) and [Contributing Guidelines](https://github.com/CS342/.github/blob/main/CONTRIBUTING.md)
+      options:
+        - label: I agree to follow this course's Code of Conduct and Contributing Guidelines
+          required: true

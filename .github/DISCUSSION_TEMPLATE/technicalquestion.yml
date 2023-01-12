@@ -6,13 +6,28 @@
 # SPDX-License-Identifier: MIT
 #
 
-title: "[Setup] "
-labels: ["Setup"]
+title: "[Technical Question] "
+labels: ["Technical Question"]
 body:
   - type: markdown
     attributes:
       value: |
-        This form guides you through the process of getting help with setting up your development environment for the class.
+        Please use this form to describe your technical challenge.
+  - type: dropdown
+    attributes:
+      label: In what area do you have a technical challenge?
+      description: | 
+        Please refer to [github.com/StanfordBDHG/discussions](https://github.com/orgs/StanfordBDHG/discussions) for any questions regarding StanfordBDHG-related 
+        projects such as HealthKitOnFHIR, ResearchKitOnFHIR, CardinalKit, and more ...
+      options:
+        - Xcode, Simulator & Previews
+        - Swift Package Manager
+        - Swift
+        - SwiftUI
+        - HealthKit
+        - Other (non-StanfordBDHG-related) area
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
@@ -25,8 +40,14 @@ body:
     id: reproduction
     attributes:
       label: Reproduction
-      description: Please provide a description of how to reproduce the problem you are facing.
-      placeholder: What steps did you follow to get the problem? Can you reproduce it after a restart and trying the same steps a second time?
+      description: | 
+        Please provide a description of how to reproduce the problem you are facing.
+        
+        If you are facing a problem in your application, please provide a link to a failing UI test or unit test to reproduce the issue.
+        If you face a build error or a problem with releasing your application, please link a GitHub Action run reproducing the error outside of your development.
+      placeholder: | 
+        What steps did you follow to get the problem?
+        Provide links and steps on how to reproduce the problem.
     validations:
       required: true
   - type: textarea
@@ -42,9 +63,7 @@ body:
     attributes:
       label: Additional context
       description:  |
-        Please provide any additional context that might be relevant to your setup problem. 
-        Please share the exact version of your device, your macOS version, Xcode version, and all information that would be relevant to help you. 
-        Feel free to share a screenshot of your [system information panel](https://support.apple.com/guide/mac-help/get-system-information-about-your-mac-syspr35536/mac) as well as your [Xcode version](https://help.apple.com/simulator/mac/11.0/index.html?localePath=en.lproj#/dev6e3b8f087).
+        Please provide any additional context that might be relevant to your setup problem.
       placeholder: Any additional context that might be relevant to your problem.
   - type: checkboxes
     id: terms
