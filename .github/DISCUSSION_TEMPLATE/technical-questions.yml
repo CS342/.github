@@ -6,8 +6,8 @@
 # SPDX-License-Identifier: MIT
 #
 
-title: "[Technical Question] "
-labels: ["Technical Question"]
+title: "[Technical Questions] "
+labels: ["Technical Questions"]
 body:
   - type: markdown
     attributes:
