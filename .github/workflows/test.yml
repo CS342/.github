@@ -1,0 +1,22 @@
+#
+# This source file is part of the Stanford CS342 - Building for Digital Health class
+# It is a copy of the xcodebuild-or-fastlane.yml GitHub Action workflow as copied from the Stanford Biodesign Digital Health organization.
+#
+# SPDX-FileCopyrightText: 2022 Stanford University
+#
+# SPDX-License-Identifier: MIT
+#
+
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  reuse_action:
+    name: REUSE Compliance Check
+    uses: StanfordBDHG/.github/.github/workflows/reuse.yml@v2
