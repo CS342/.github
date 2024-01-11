@@ -1,13 +1,3 @@
-<!--
-
-This source file is part of the Stanford CS342 - Building for Digital Health class
-
-SPDX-FileCopyrightText: 2022 Stanford University
-
-SPDX-License-Identifier: MIT
-
--->
-
 # *Name of the PR*
 
 ## :recycle: Current situation & Problem
