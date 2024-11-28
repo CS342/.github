@@ -18,5 +18,5 @@ Over the course of ten weeks, students and faculty will work together to tackle 
 
 For more information, check out our website at [cs342.stanford.edu](https://cs342.stanford.edu).
 
-![Stanford Byers Center for Biodesign Logo](https://raw.githubusercontent.com/CS342/.github/main/assets/biodesign-footer-light.png#gh-light-mode-only)
-![Stanford Byers Center for Biodesign Logo](https://raw.githubusercontent.com/CS342/.github/main/assets/biodesign-footer-dark.png#gh-dark-mode-only)
+![Stanford Mussallem Center for Biodesign Logo](https://raw.githubusercontent.com/CS342/.github/main/assets/biodesign-footer-light.png#gh-light-mode-only)
+![Stanford Mussallem Center for Biodesign Logo](https://raw.githubusercontent.com/CS342/.github/main/assets/biodesign-footer-dark.png#gh-dark-mode-only)
